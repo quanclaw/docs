@@ -1,0 +1,136 @@
+---
+title: "Track Your Billiards Stats and Performance"
+description: "Log match results, track wins, losses, and advanced stats like run-outs and safeties, and monitor your improvement with charts and leaderboards over time."
+---
+
+The stats tracking system on Billiards.com gives you a detailed record of every match you play — whether it's a casual session at your local pool hall or a sanctioned league match. Over time, the platform builds a complete picture of your game, showing you where you're improving and where you still have room to grow.
+
+## Stats that are tracked
+
+Billiards.com tracks both basic and advanced stats for every logged match. The stats available vary slightly by game type, but the core set covers:
+
+<AccordionGroup>
+  <Accordion title="Win/loss record">
+    Your total match wins and losses, win percentage (calculated from all rated matches), and a win streak counter showing your current and longest streaks. Win percentage is shown separately for each game type you play.
+  </Accordion>
+  <Accordion title="Innings">
+    The average number of innings (turns at the table) per match. A lower innings average in offense-heavy formats like 9-ball typically indicates a stronger player. Innings are only tracked when you log them manually or when they're included in imported league data.
+  </Accordion>
+  <Accordion title="Safeties">
+    The number of safety shots you've logged per match and your safety success rate (the percentage of safeties that resulted in a foul or defensive return, based on your own notation). Tracking safeties is optional but gives you useful insight into your defensive game.
+  </Accordion>
+  <Accordion title="Run-outs">
+    A run-out is recorded when you clear the table from the break or from the first ball without missing. The platform tracks your total run-outs and your run-out percentage (run-outs divided by opportunities where you had ball in hand or broke and made a ball).
+  </Accordion>
+  <Accordion title="High run">
+    Your longest consecutive run of balls pocketed in a single inning, tracked as a career high and a rolling 90-day high. High run is most meaningful in straight pool (14.1) but is tracked across all game types.
+  </Accordion>
+</AccordionGroup>
+
+## Logging a match
+
+You can add a match to your record in two ways: manually entering the result, or importing it automatically when it comes from a league session.
+
+<Tabs>
+  <Tab title="Manual entry">
+    <Steps>
+      <Step title="Open the log match form">
+        From your dashboard, click **Log a match** in the top action bar, or go to **Stats → Log match**.
+      </Step>
+      <Step title="Set the match details">
+        Select the game type (8-ball, 9-ball, 10-ball, straight pool, one-pocket, or bank pool), the format (race to X, timed session, or sets), and the venue where you played. Mark whether the match was rated or unrated — unrated matches are recorded but don't affect your handicap.
+      </Step>
+      <Step title="Enter the score and opponent">
+        Search for your opponent by username or email. If they're not on Billiards.com, you can log the match with their name only; it records in your stats but won't appear on their profile. Enter the final score.
+      </Step>
+      <Step title="Add optional advanced stats">
+        Optionally log innings played, number of safeties, run-outs, and your high run for the session. These fields aren't required, but the more you fill in, the richer your stats become over time.
+      </Step>
+      <Step title="Submit and confirm">
+        Click **Save match**. If your opponent has an account, they receive a notification to confirm the result. Once both players confirm, the match is marked as verified and counts toward standings and handicap calculations.
+      </Step>
+    </Steps>
+
+    <Tip>
+      Log matches right after you play for the most accurate stats. It's easy to forget exact scores or innings counts if you wait a day or two.
+    </Tip>
+  </Tab>
+  <Tab title="Auto-import from leagues">
+    When you play a league match and both players confirm the result through the league scheduling tool, the match is automatically added to both players' stat records. You don't need to log it separately.
+
+    League-imported matches are tagged with the league name and season, so you can filter your stats to see only league results, only casual play, or both combined.
+  </Tab>
+</Tabs>
+
+## Game-specific stats
+
+Each game type has a dedicated stats section in your dashboard. Switching between game types changes which stats are displayed:
+
+| Stat | 8-ball | 9-ball | Straight pool | One-pocket |
+|---|---|---|---|---|
+| Win/loss | Yes | Yes | Yes | Yes |
+| Innings | Yes | Yes | Yes | Yes |
+| Run-outs | Yes | Yes | — | — |
+| High run | — | — | Yes | — |
+| Safeties | Yes | Yes | Yes | Yes |
+| Break-and-run | Yes | Yes | — | — |
+
+Break-and-run (clearing the table off the break without missing) is tracked separately from run-outs and is one of the most-watched stats among 8-ball and 9-ball players on the platform.
+
+## How your handicap is calculated
+
+Your handicap rating is a number between 1 and 10 for each game type. It's computed from a weighted average of your last 20 rated matches, with more recent matches counting more heavily than older ones.
+
+The calculation considers:
+
+- Your win percentage against players at different rating levels
+- The margin of your wins and losses (winning a race to 7 by a score of 7–1 carries more weight than 7–6)
+- Whether the match was played in a rated league session or as an unrated casual match (only rated matches influence the handicap)
+
+Your rating updates within a few minutes of a match result being confirmed. A significant win against a higher-rated opponent moves your rating more than a win against a lower-rated one.
+
+<Info>
+  You need at least five confirmed rated matches in a game type before a handicap rating is displayed for that format. Until then, your rating shows as "Unrated" for that game type.
+</Info>
+
+## Stats dashboard
+
+Your stats dashboard is the central view for all your performance data. Access it from your profile under the **Stats** tab or via the main navigation.
+
+The dashboard includes:
+
+- **Performance trend chart**: A line graph showing your win percentage over the past 30, 90, or 365 days. Toggle between game types using the filter at the top of the chart.
+- **Session heatmap**: A calendar view showing how often you play each week. Darker squares indicate more matches logged.
+- **Stat comparisons**: Side-by-side comparison of your stats across different time periods — useful for spotting improvement after working on a specific part of your game.
+- **Game breakdown**: A pie chart showing how your matches are distributed across game types.
+
+<Note>
+  Your stats dashboard is private by default. You control what's visible to other players from **Settings → Privacy → Stats visibility**.
+</Note>
+
+## Leaderboards
+
+Leaderboards rank players by win percentage, total wins, high run, or handicap rating. Filters let you view standings at three geographic levels:
+
+<Tabs>
+  <Tab title="Local">
+    Players within 50 miles of your set home location. Local leaderboards update daily and are the most competitive for players who frequent the same venues. You must have played at least ten rated matches in the past 90 days to appear on local leaderboards.
+  </Tab>
+  <Tab title="Regional">
+    Players within your region (defined by state or province). Regional leaderboards give you a sense of where you stand in a broader competitive pool.
+  </Tab>
+  <Tab title="National">
+    The top-ranked players across the entire Billiards.com user base, sorted by handicap rating. National leaderboards update weekly and require at least 25 rated matches in the past 12 months to qualify.
+  </Tab>
+</Tabs>
+
+## Continue exploring
+
+<CardGroup cols={2}>
+  <Card title="Guide: tracking your game" icon="bookmark" href="/guides/tracking-your-game">
+    Tips for getting the most out of stats tracking, including how to build a useful log habit and interpret your performance trends.
+  </Card>
+  <Card title="Leagues" icon="trophy" href="/features/leagues">
+    Compete in structured leagues where results are automatically imported into your stats record and counted toward your handicap.
+  </Card>
+</CardGroup>

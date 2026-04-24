@@ -1,0 +1,76 @@
+{
+  "projectType": "saas",
+  "projectName": "Billiards.com",
+  "projectDescription": "A comprehensive online platform for billiards enthusiasts to find venues, track stats, join leagues, and connect with the pool and billiards community.",
+  "theme": "almond",
+  "primaryColor": "#b4cbbc",
+  "lightColor": "#207a49",
+  "darkColor": "#e8f5ef",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "account-setup"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/venue-finder",
+              "features/leagues",
+              "features/stats-tracking",
+              "features/community"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/joining-a-league",
+              "guides/tracking-your-game",
+              "guides/finding-venues",
+              "guides/tournaments"
+            ]
+          },
+          {
+            "group": "Account & Settings",
+            "pages": [
+              "settings/profile",
+              "settings/notifications",
+              "settings/privacy"
+            ]
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "help/faq",
+              "help/troubleshooting",
+              "help/contact"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Venue finder to locate nearby billiards halls and pool rooms",
+    "League management for joining and organizing local leagues",
+    "Stats tracking to record and analyze game performance",
+    "Tournament brackets and event scheduling",
+    "Community profiles and player connections",
+    "Game history and handicap calculation"
+  ],
+  "publicApiSurface": [
+    "User account registration and authentication",
+    "Venue search and discovery",
+    "League enrollment and scheduling",
+    "Match result submission",
+    "Player stats and leaderboards",
+    "Tournament creation and management"
+  ]
+}

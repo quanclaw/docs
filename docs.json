@@ -1,0 +1,72 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "almond",
+  "name": "Billiards.com",
+  "logo": {
+    "light": "https://media.brand.dev/f80b4f11-d2ba-4b9e-a14d-27204cd034ed.png",
+    "dark": "https://media.brand.dev/f80b4f11-d2ba-4b9e-a14d-27204cd034ed.png"
+  },
+  "favicon": "https://media.brand.dev/aba6d22c-6634-4552-a6f2-3e048ac61654.png",
+  "colors": {
+    "primary": "#b4cbbc",
+    "light": "#207a49",
+    "dark": "#e8f5ef"
+  },
+  "navbar": {
+    "primary": {
+      "type": "github",
+      "href": "https://github.com/quanclaw/vsdocs"
+    }
+  },
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Get Started",
+            "pages": [
+              "introduction",
+              "quickstart",
+              "account-setup"
+            ]
+          },
+          {
+            "group": "Features",
+            "pages": [
+              "features/venue-finder",
+              "features/leagues",
+              "features/stats-tracking",
+              "features/community"
+            ]
+          },
+          {
+            "group": "Guides",
+            "pages": [
+              "guides/joining-a-league",
+              "guides/tracking-your-game",
+              "guides/finding-venues",
+              "guides/tournaments"
+            ]
+          },
+          {
+            "group": "Account & Settings",
+            "pages": [
+              "settings/profile",
+              "settings/notifications",
+              "settings/privacy"
+            ]
+          },
+          {
+            "group": "Help",
+            "pages": [
+              "help/faq",
+              "help/troubleshooting",
+              "help/contact"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
